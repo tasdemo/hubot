@@ -1,7 +1,8 @@
 --- 
 framework: mocha
 blacklist:
-  - "test/datastore_test.js" 
+  - "test/datastore_test.js"
+  - "test/adapter_test.js" 
 postMerge: 
   pattern: 
   - test/*.js
