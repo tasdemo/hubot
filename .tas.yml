@@ -2,13 +2,14 @@
 framework: mocha
 blacklist:
   - "test/datastore_test.js" 
-postmerge: 
+postMerge: 
   pattern: 
   - test/*.js
-premerge: 
+preMerge: 
+  pattern: 
   - test/*.js
-prerun: 
+preRun: 
   - npm i
-postrun: 
+postRun: 
   - "node --version"
 version: 2.0
